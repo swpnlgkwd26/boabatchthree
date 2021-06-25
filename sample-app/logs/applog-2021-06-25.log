@@ -1,0 +1,22 @@
+2021-06-25 13:50:42.9296 - Now listening on: http://localhost:5000 -            
+
+2021-06-25 13:50:43.0340 - Application started. Press Ctrl+C to shut down. -            
+
+2021-06-25 13:50:43.0496 - Hosting environment: Staging -            
+
+2021-06-25 13:50:43.0496 - Content root path: D:\FreeLancerAssignments\BankOfAmericaBatch3\sample-app -            
+
+2021-06-25 13:50:47.5687 - Index Action Called  for 1 -            
+
+2021-06-25 13:50:48.3803 - No type was specified for the decimal column 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. -            
+
+2021-06-25 13:50:51.1360 - ProductListViewModel Object Created -            
+
+2021-06-25 13:50:51.5531 - Category Selected :  -            
+
+2021-06-25 13:50:58.2564 - Index Action Called  for 2 -            
+
+2021-06-25 13:50:58.3196 - ProductListViewModel Object Created -            
+
+2021-06-25 13:50:58.3294 - Category Selected :  -            
+

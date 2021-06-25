@@ -1,0 +1,10 @@
+
+
+ 1. Create a Blazor application  For Bank  of America that allows admin to
+   -  Add New Account
+   -  Delete account
+   -  Search Account By Accountnum
+   -  Update Account Information like address ,emailID and Contact No
+   
+
+   Note: Build Necessary backend logic OR Methods to work with SQL database

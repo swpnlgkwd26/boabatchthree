@@ -1,0 +1,8 @@
+Create Web Application for Bank of America using .Net Core.  
+
+ 1. Bank Admin , Should be able to Manage Accounts(Add,Delete,Update and Read) 
+ 2. Create a Page LoanCalculator :  That Calculates Vehicle Loan EMI/Home Loan EMI
+ 3. Admin should be able to See Links : All Account, Saving Accounts, Current Account in left section Menu
+ 4. Apply Bootstrap Style
+
+Complete Lab1 and Lab2 Attached in the File

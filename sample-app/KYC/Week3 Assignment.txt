@@ -1,0 +1,4 @@
+
+1. Enable Authentication and Authorization in the Bank application.
+2. Admin should be able to perform CRUD operations
+3. Accountholder should be able to only read account information.

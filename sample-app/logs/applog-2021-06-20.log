@@ -1,0 +1,902 @@
+2021-06-20 09:46:29.6449 - Now listening on: http://localhost:5000 -            
+
+2021-06-20 09:46:29.8042 - Application started. Press Ctrl+C to shut down. -            
+
+2021-06-20 09:46:29.8303 - Hosting environment: Development -            
+
+2021-06-20 09:46:29.8767 - Content root path: D:\FreeLancerAssignments\BankOfAmericaBatch3\sample-app -            
+
+2021-06-20 09:46:34.2733 - Index Action Called  for 1 -            
+
+2021-06-20 09:46:34.3320 - ProductListViewModel Object Created -            
+
+2021-06-20 09:46:35.2334 - Category Selected :  -            
+
+2021-06-20 09:46:36.1308 - Index Action Called favicon.ico for 1 -            
+
+2021-06-20 09:46:36.1308 - ProductListViewModel Object Created -            
+
+2021-06-20 09:46:36.1525 - Category Selected : favicon.ico -            
+
+2021-06-20 09:46:50.4080 - Category Selected :  -            
+
+2021-06-20 09:46:50.8939 - Index Action Called favicon.ico for 1 -            
+
+2021-06-20 09:46:50.9214 - ProductListViewModel Object Created -            
+
+2021-06-20 09:46:50.9336 - Category Selected : favicon.ico -            
+
+2021-06-20 09:47:12.8457 - ModelState is valid -            
+
+2021-06-20 09:47:12.8738 - Index Action Called  for 1 -            
+
+2021-06-20 09:47:12.8738 - ProductListViewModel Object Created -            
+
+2021-06-20 09:47:12.9011 - Category Selected :  -            
+
+2021-06-20 09:47:13.6834 - Index Action Called favicon.ico for 1 -            
+
+2021-06-20 09:47:13.6898 - ProductListViewModel Object Created -            
+
+2021-06-20 09:47:13.7037 - Category Selected : favicon.ico -            
+
+2021-06-20 09:47:15.7121 - Index Action Called Chess for 1 -            
+
+2021-06-20 09:47:15.7235 - ProductListViewModel Object Created -            
+
+2021-06-20 09:47:15.7399 - Category Selected : Chess -            
+
+2021-06-20 09:47:16.3752 - Index Action Called favicon.ico for 1 -            
+
+2021-06-20 09:47:16.3920 - ProductListViewModel Object Created -            
+
+2021-06-20 09:47:16.4140 - Category Selected : favicon.ico -            
+
+2021-06-20 09:47:17.3666 - Index Action Called Soccer for 1 -            
+
+2021-06-20 09:47:17.3746 - ProductListViewModel Object Created -            
+
+2021-06-20 09:47:17.4008 - Category Selected : Soccer -            
+
+2021-06-20 09:47:18.2034 - Index Action Called Cricket for 1 -            
+
+2021-06-20 09:47:18.2034 - Index Action Called favicon.ico for 1 -            
+
+2021-06-20 09:47:18.2034 - ProductListViewModel Object Created -            
+
+2021-06-20 09:47:18.2034 - ProductListViewModel Object Created -            
+
+2021-06-20 09:47:18.2243 - Category Selected : favicon.ico -            
+
+2021-06-20 09:47:18.2350 - Category Selected : Cricket -            
+
+2021-06-20 09:47:18.8631 - Index Action Called favicon.ico for 1 -            
+
+2021-06-20 09:47:18.8631 - ProductListViewModel Object Created -            
+
+2021-06-20 09:47:18.9212 - Category Selected : favicon.ico -            
+
+2021-06-20 10:20:06.6337 - Now listening on: http://localhost:5000 -            
+
+2021-06-20 10:20:06.8856 - Application started. Press Ctrl+C to shut down. -            
+
+2021-06-20 10:20:06.9317 - Hosting environment: Development -            
+
+2021-06-20 10:20:06.9492 - Content root path: D:\FreeLancerAssignments\BankOfAmericaBatch3\sample-app -            
+
+2021-06-20 10:20:12.0475 - Index Action Called  for 1 -            
+
+2021-06-20 10:20:12.0643 - ProductListViewModel Object Created -            
+
+2021-06-20 10:20:12.7719 - Category Selected :  -            
+
+2021-06-20 10:20:13.7771 - Index Action Called favicon.ico for 1 -            
+
+2021-06-20 10:20:13.7834 - ProductListViewModel Object Created -            
+
+2021-06-20 10:20:13.8170 - Category Selected : favicon.ico -            
+
+2021-06-20 10:20:14.8766 - Category Selected :  -            
+
+2021-06-20 10:20:15.2501 - Index Action Called favicon.ico for 1 -            
+
+2021-06-20 10:20:15.2501 - ProductListViewModel Object Created -            
+
+2021-06-20 10:20:15.2501 - Category Selected : favicon.ico -            
+
+2021-06-20 10:30:18.3935 - Now listening on: http://localhost:5000 -            
+
+2021-06-20 10:30:18.4695 - Application started. Press Ctrl+C to shut down. -            
+
+2021-06-20 10:30:18.4695 - Hosting environment: Development -            
+
+2021-06-20 10:30:18.4695 - Content root path: D:\FreeLancerAssignments\BankOfAmericaBatch3\sample-app -            
+
+2021-06-20 10:30:22.3167 - An unhandled exception has occurred while executing the request. -               at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at sample_app.Middlewares.RequestCultureMiddleware.InvokeAsync(HttpContext context) in D:\FreeLancerAssignments\BankOfAmericaBatch3\sample-app\Middlewares\RequestCultureMiddleware.cs:line 33
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+
+2021-06-20 10:30:23.6250 - An unhandled exception has occurred while executing the request. -               at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at sample_app.Middlewares.RequestCultureMiddleware.InvokeAsync(HttpContext context) in D:\FreeLancerAssignments\BankOfAmericaBatch3\sample-app\Middlewares\RequestCultureMiddleware.cs:line 33
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+
+2021-06-20 10:35:47.0603 - Now listening on: http://localhost:5000 -            
+
+2021-06-20 10:35:47.1689 - Application started. Press Ctrl+C to shut down. -            
+
+2021-06-20 10:35:47.1894 - Hosting environment: Development -            
+
+2021-06-20 10:35:47.1894 - Content root path: D:\FreeLancerAssignments\BankOfAmericaBatch3\sample-app -            
+
+2021-06-20 10:35:50.0791 - Index Action Called  for 1 -            
+
+2021-06-20 10:35:50.0791 - ProductListViewModel Object Created -            
+
+2021-06-20 10:35:50.7475 - Category Selected :  -            
+
+2021-06-20 10:35:51.6016 - Index Action Called favicon.ico for 1 -            
+
+2021-06-20 10:35:51.6275 - ProductListViewModel Object Created -            
+
+2021-06-20 10:35:51.6703 - Category Selected : favicon.ico -            
+
+2021-06-20 10:35:54.6653 - Category Selected :  -            
+
+2021-06-20 10:35:55.0106 - Index Action Called favicon.ico for 1 -            
+
+2021-06-20 10:35:55.0201 - ProductListViewModel Object Created -            
+
+2021-06-20 10:35:55.0201 - Category Selected : favicon.ico -            
+
+2021-06-20 10:37:44.1603 - Now listening on: http://localhost:5000 -            
+
+2021-06-20 10:37:44.2808 - Application started. Press Ctrl+C to shut down. -            
+
+2021-06-20 10:37:44.2808 - Hosting environment: Development -            
+
+2021-06-20 10:37:44.2808 - Content root path: D:\FreeLancerAssignments\BankOfAmericaBatch3\sample-app -            
+
+2021-06-20 10:37:46.9857 - Index Action Called  for 1 -            
+
+2021-06-20 10:37:46.9982 - ProductListViewModel Object Created -            
+
+2021-06-20 10:37:47.6638 - Category Selected :  -            
+
+2021-06-20 10:37:48.4243 - Index Action Called favicon.ico for 1 -            
+
+2021-06-20 10:37:48.4243 - ProductListViewModel Object Created -            
+
+2021-06-20 10:37:48.4966 - Category Selected : favicon.ico -            
+
+2021-06-20 10:37:53.0948 - Category Selected :  -            
+
+2021-06-20 10:37:53.5739 - Index Action Called favicon.ico for 1 -            
+
+2021-06-20 10:37:53.5806 - ProductListViewModel Object Created -            
+
+2021-06-20 10:37:53.5806 - Category Selected : favicon.ico -            
+
+2021-06-20 10:38:56.3183 - Now listening on: http://localhost:5000 -            
+
+2021-06-20 10:38:56.4076 - Application started. Press Ctrl+C to shut down. -            
+
+2021-06-20 10:38:56.4076 - Hosting environment: Development -            
+
+2021-06-20 10:38:56.4186 - Content root path: D:\FreeLancerAssignments\BankOfAmericaBatch3\sample-app -            
+
+2021-06-20 10:38:59.3104 - Index Action Called  for 1 -            
+
+2021-06-20 10:38:59.3245 - ProductListViewModel Object Created -            
+
+2021-06-20 10:39:00.0664 - Category Selected :  -            
+
+2021-06-20 10:39:00.7940 - Index Action Called favicon.ico for 1 -            
+
+2021-06-20 10:39:00.7940 - ProductListViewModel Object Created -            
+
+2021-06-20 10:39:00.8336 - Category Selected : favicon.ico -            
+
+2021-06-20 10:39:07.8553 - Category Selected :  -            
+
+2021-06-20 10:39:08.3709 - Index Action Called favicon.ico for 1 -            
+
+2021-06-20 10:39:08.3709 - ProductListViewModel Object Created -            
+
+2021-06-20 10:39:08.3709 - Category Selected : favicon.ico -            
+
+2021-06-20 10:40:00.3310 - Now listening on: http://localhost:5000 -            
+
+2021-06-20 10:40:00.4361 - Application started. Press Ctrl+C to shut down. -            
+
+2021-06-20 10:40:00.4361 - Hosting environment: Development -            
+
+2021-06-20 10:40:00.4361 - Content root path: D:\FreeLancerAssignments\BankOfAmericaBatch3\sample-app -            
+
+2021-06-20 10:40:03.6026 - Index Action Called  for 1 -            
+
+2021-06-20 10:40:03.6212 - ProductListViewModel Object Created -            
+
+2021-06-20 10:40:04.2701 - Category Selected :  -            
+
+2021-06-20 10:40:05.2694 - Index Action Called favicon.ico for 1 -            
+
+2021-06-20 10:40:05.3535 - ProductListViewModel Object Created -            
+
+2021-06-20 10:40:05.4020 - Category Selected : favicon.ico -            
+
+2021-06-20 10:40:06.9850 - Category Selected :  -            
+
+2021-06-20 10:40:07.3913 - Index Action Called favicon.ico for 1 -            
+
+2021-06-20 10:40:07.4125 - ProductListViewModel Object Created -            
+
+2021-06-20 10:40:07.4199 - Category Selected : favicon.ico -            
+
+2021-06-20 10:43:18.3897 - Now listening on: http://localhost:5000 -            
+
+2021-06-20 10:43:18.4865 - Application started. Press Ctrl+C to shut down. -            
+
+2021-06-20 10:43:18.5612 - Hosting environment: Development -            
+
+2021-06-20 10:43:18.6563 - Content root path: D:\FreeLancerAssignments\BankOfAmericaBatch3\sample-app -            
+
+2021-06-20 10:43:21.3221 - Index Action Called  for 1 -            
+
+2021-06-20 10:43:21.3322 - ProductListViewModel Object Created -            
+
+2021-06-20 10:43:21.9691 - Category Selected :  -            
+
+2021-06-20 10:43:22.6945 - Index Action Called favicon.ico for 1 -            
+
+2021-06-20 10:43:22.7337 - ProductListViewModel Object Created -            
+
+2021-06-20 10:43:22.7568 - Category Selected : favicon.ico -            
+
+2021-06-20 10:43:25.1861 - Category Selected :  -            
+
+2021-06-20 10:43:25.9279 - Index Action Called favicon.ico for 1 -            
+
+2021-06-20 10:43:25.9279 - ProductListViewModel Object Created -            
+
+2021-06-20 10:43:25.9494 - Category Selected : favicon.ico -            
+
+2021-06-20 10:45:44.0731 - Index Action Called favicon.ico for 1 -            
+
+2021-06-20 10:45:44.0883 - ProductListViewModel Object Created -            
+
+2021-06-20 10:45:44.0970 - Category Selected : favicon.ico -            
+
+2021-06-20 10:45:51.1034 - Index Action Called  for 1 -            
+
+2021-06-20 10:45:51.1158 - ProductListViewModel Object Created -            
+
+2021-06-20 10:45:51.1377 - Category Selected :  -            
+
+2021-06-20 10:45:51.6964 - Index Action Called favicon.ico for 1 -            
+
+2021-06-20 10:45:51.7211 - ProductListViewModel Object Created -            
+
+2021-06-20 10:45:51.7320 - Category Selected : favicon.ico -            
+
+2021-06-20 10:45:52.9205 - Category Selected :  -            
+
+2021-06-20 10:45:53.3108 - Index Action Called favicon.ico for 1 -            
+
+2021-06-20 10:45:53.3108 - ProductListViewModel Object Created -            
+
+2021-06-20 10:45:53.3338 - Category Selected : favicon.ico -            
+
+2021-06-20 10:46:04.4805 - Category Selected :  -            
+
+2021-06-20 10:46:05.0672 - Index Action Called favicon.ico for 1 -            
+
+2021-06-20 10:46:05.0869 - ProductListViewModel Object Created -            
+
+2021-06-20 10:46:05.1163 - Category Selected : favicon.ico -            
+
+2021-06-20 10:47:38.4497 - Index Action Called favicon.ico for 1 -            
+
+2021-06-20 10:47:38.4829 - ProductListViewModel Object Created -            
+
+2021-06-20 10:47:38.4829 - Category Selected : favicon.ico -            
+
+2021-06-20 10:47:42.2699 - Index Action Called  for 1 -            
+
+2021-06-20 10:47:42.2699 - ProductListViewModel Object Created -            
+
+2021-06-20 10:47:42.2824 - Category Selected :  -            
+
+2021-06-20 10:47:42.9539 - Index Action Called favicon.ico for 1 -            
+
+2021-06-20 10:47:42.9539 - ProductListViewModel Object Created -            
+
+2021-06-20 10:47:42.9694 - Category Selected : favicon.ico -            
+
+2021-06-20 10:47:44.7389 - Category Selected :  -            
+
+2021-06-20 10:47:45.3626 - Index Action Called favicon.ico for 1 -            
+
+2021-06-20 10:47:45.3733 - ProductListViewModel Object Created -            
+
+2021-06-20 10:47:45.3913 - Category Selected : favicon.ico -            
+
+2021-06-20 10:50:37.4216 - Now listening on: http://localhost:5000 -            
+
+2021-06-20 10:50:37.5241 - Application started. Press Ctrl+C to shut down. -            
+
+2021-06-20 10:50:37.5297 - Hosting environment: Development -            
+
+2021-06-20 10:50:37.5297 - Content root path: D:\FreeLancerAssignments\BankOfAmericaBatch3\sample-app -            
+
+2021-06-20 10:50:40.6668 - Index Action Called  for 1 -            
+
+2021-06-20 10:50:40.6863 - ProductListViewModel Object Created -            
+
+2021-06-20 10:50:41.3618 - Category Selected :  -            
+
+2021-06-20 10:50:42.6247 - Index Action Called favicon.ico for 1 -            
+
+2021-06-20 10:50:42.6247 - ProductListViewModel Object Created -            
+
+2021-06-20 10:50:42.6639 - Category Selected : favicon.ico -            
+
+2021-06-20 10:50:51.8850 - An unhandled exception has occurred while executing the request. -               at sample_app.Controllers.HomeController.AboutUs() in D:\FreeLancerAssignments\BankOfAmericaBatch3\sample-app\Controllers\HomeController.cs:line 156
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at sample_app.Middlewares.RequestCultureMiddleware.InvokeAsync(HttpContext context) in D:\FreeLancerAssignments\BankOfAmericaBatch3\sample-app\Middlewares\RequestCultureMiddleware.cs:line 33
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+
+2021-06-20 10:50:52.4316 - Index Action Called favicon.ico for 1 -            
+
+2021-06-20 10:50:52.4372 - ProductListViewModel Object Created -            
+
+2021-06-20 10:50:52.4372 - Category Selected : favicon.ico -            
+
+2021-06-20 10:55:59.0189 - Now listening on: http://localhost:5000 -            
+
+2021-06-20 10:55:59.1334 - Application started. Press Ctrl+C to shut down. -            
+
+2021-06-20 10:55:59.1387 - Hosting environment: Development -            
+
+2021-06-20 10:55:59.1530 - Content root path: D:\FreeLancerAssignments\BankOfAmericaBatch3\sample-app -            
+
+2021-06-20 10:56:02.2184 - Index Action Called  for 1 -            
+
+2021-06-20 10:56:02.2344 - ProductListViewModel Object Created -            
+
+2021-06-20 10:56:02.9638 - Category Selected :  -            
+
+2021-06-20 10:56:03.9040 - Index Action Called favicon.ico for 1 -            
+
+2021-06-20 10:56:03.9040 - ProductListViewModel Object Created -            
+
+2021-06-20 10:56:03.9615 - Category Selected : favicon.ico -            
+
+2021-06-20 10:56:11.5580 - An unhandled exception has occurred while executing the request. -               at sample_app.Controllers.HomeController.AboutUs() in D:\FreeLancerAssignments\BankOfAmericaBatch3\sample-app\Controllers\HomeController.cs:line 156
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at sample_app.Middlewares.RequestCultureMiddleware.InvokeAsync(HttpContext context) in D:\FreeLancerAssignments\BankOfAmericaBatch3\sample-app\Middlewares\RequestCultureMiddleware.cs:line 33
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+
+2021-06-20 10:56:12.1370 - Index Action Called favicon.ico for 1 -            
+
+2021-06-20 10:56:12.1370 - ProductListViewModel Object Created -            
+
+2021-06-20 10:56:12.1668 - Category Selected : favicon.ico -            
+
+2021-06-20 10:59:20.6074 - Now listening on: http://localhost:5000 -            
+
+2021-06-20 10:59:20.7001 - Application started. Press Ctrl+C to shut down. -            
+
+2021-06-20 10:59:20.7001 - Hosting environment: Development -            
+
+2021-06-20 10:59:20.7167 - Content root path: D:\FreeLancerAssignments\BankOfAmericaBatch3\sample-app -            
+
+2021-06-20 10:59:23.4195 - Index Action Called  for 1 -            
+
+2021-06-20 10:59:23.4195 - ProductListViewModel Object Created -            
+
+2021-06-20 10:59:24.1141 - Category Selected :  -            
+
+2021-06-20 10:59:25.0468 - Index Action Called favicon.ico for 1 -            
+
+2021-06-20 10:59:25.0843 - ProductListViewModel Object Created -            
+
+2021-06-20 10:59:25.1048 - Category Selected : favicon.ico -            
+
+2021-06-20 10:59:26.3257 - Category Selected :  -            
+
+2021-06-20 10:59:26.9997 - Index Action Called favicon.ico for 1 -            
+
+2021-06-20 10:59:27.0822 - ProductListViewModel Object Created -            
+
+2021-06-20 10:59:27.0986 - Category Selected : favicon.ico -            
+
+2021-06-20 10:59:31.0461 - An unhandled exception has occurred while executing the request. -               at sample_app.Controllers.HomeController.AboutUs() in D:\FreeLancerAssignments\BankOfAmericaBatch3\sample-app\Controllers\HomeController.cs:line 156
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at sample_app.Middlewares.RequestCultureMiddleware.InvokeAsync(HttpContext context) in D:\FreeLancerAssignments\BankOfAmericaBatch3\sample-app\Middlewares\RequestCultureMiddleware.cs:line 33
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+
+2021-06-20 10:59:31.8643 - Index Action Called favicon.ico for 1 -            
+
+2021-06-20 10:59:31.8912 - ProductListViewModel Object Created -            
+
+2021-06-20 10:59:31.9625 - Category Selected : favicon.ico -            
+
+2021-06-20 11:00:48.4478 - Now listening on: http://localhost:5000 -            
+
+2021-06-20 11:00:48.5134 - Application started. Press Ctrl+C to shut down. -            
+
+2021-06-20 11:00:48.5134 - Hosting environment: Staging -            
+
+2021-06-20 11:00:48.5316 - Content root path: D:\FreeLancerAssignments\BankOfAmericaBatch3\sample-app -            
+
+2021-06-20 11:00:51.3542 - Index Action Called  for 1 -            
+
+2021-06-20 11:00:51.3673 - ProductListViewModel Object Created -            
+
+2021-06-20 11:00:52.0968 - Category Selected :  -            
+
+2021-06-20 11:00:53.1236 - Index Action Called favicon.ico for 1 -            
+
+2021-06-20 11:00:53.1808 - ProductListViewModel Object Created -            
+
+2021-06-20 11:00:53.1997 - Category Selected : favicon.ico -            
+
+2021-06-20 11:00:58.3657 - An unhandled exception has occurred while executing the request. -               at sample_app.Controllers.HomeController.AboutUs() in D:\FreeLancerAssignments\BankOfAmericaBatch3\sample-app\Controllers\HomeController.cs:line 156
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at sample_app.Middlewares.RequestCultureMiddleware.InvokeAsync(HttpContext context) in D:\FreeLancerAssignments\BankOfAmericaBatch3\sample-app\Middlewares\RequestCultureMiddleware.cs:line 33
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+
+2021-06-20 11:00:58.4236 - Category Selected :  -            
+
+2021-06-20 11:00:59.5594 - Index Action Called favicon.ico for 1 -            
+
+2021-06-20 11:00:59.5812 - ProductListViewModel Object Created -            
+
+2021-06-20 11:00:59.6206 - Category Selected : favicon.ico -            
+
+2021-06-20 11:04:19.8951 - Now listening on: http://localhost:5000 -            
+
+2021-06-20 11:04:20.0272 - Application started. Press Ctrl+C to shut down. -            
+
+2021-06-20 11:04:20.0376 - Hosting environment: Staging -            
+
+2021-06-20 11:04:20.0376 - Content root path: D:\FreeLancerAssignments\BankOfAmericaBatch3\sample-app -            
+
+2021-06-20 11:04:22.7729 - Index Action Called  for 1 -            
+
+2021-06-20 11:04:22.7863 - ProductListViewModel Object Created -            
+
+2021-06-20 11:04:23.5139 - Category Selected :  -            
+
+2021-06-20 11:04:43.1595 - An unhandled exception has occurred while executing the request. -               at sample_app.Controllers.HomeController.AboutUs() in D:\FreeLancerAssignments\BankOfAmericaBatch3\sample-app\Controllers\HomeController.cs:line 156
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at sample_app.Middlewares.RequestCultureMiddleware.InvokeAsync(HttpContext context) in D:\FreeLancerAssignments\BankOfAmericaBatch3\sample-app\Middlewares\RequestCultureMiddleware.cs:line 33
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+
+2021-06-20 11:04:43.1873 - Category Selected :  -            
+
+2021-06-20 11:07:58.8740 - Now listening on: http://localhost:5000 -            
+
+2021-06-20 11:07:59.0091 - Application started. Press Ctrl+C to shut down. -            
+
+2021-06-20 11:07:59.0141 - Hosting environment: Staging -            
+
+2021-06-20 11:07:59.0141 - Content root path: D:\FreeLancerAssignments\BankOfAmericaBatch3\sample-app -            
+
+2021-06-20 11:08:01.9216 - Index Action Called  for 1 -            
+
+2021-06-20 11:08:01.9216 - ProductListViewModel Object Created -            
+
+2021-06-20 11:08:02.6829 - Category Selected :  -            
+
+2021-06-20 11:29:56.9730 - Now listening on: http://localhost:5000 -            
+
+2021-06-20 11:29:57.1056 - Application started. Press Ctrl+C to shut down. -            
+
+2021-06-20 11:29:57.1265 - Hosting environment: Staging -            
+
+2021-06-20 11:29:57.1405 - Content root path: D:\FreeLancerAssignments\BankOfAmericaBatch3\sample-app -            
+
+2021-06-20 11:29:59.8866 - Index Action Called  for 1 -            
+
+2021-06-20 11:29:59.9222 - ProductListViewModel Object Created -            
+
+2021-06-20 11:30:00.8769 - Category Selected :  -            
+
+2021-06-20 11:30:39.9403 - Index Action Called Chess for 1 -            
+
+2021-06-20 11:30:39.9531 - ProductListViewModel Object Created -            
+
+2021-06-20 11:30:39.9733 - Category Selected : Chess -            
+
+2021-06-20 11:30:40.7829 - Index Action Called Cricket for 1 -            
+
+2021-06-20 11:30:40.7829 - ProductListViewModel Object Created -            
+
+2021-06-20 11:30:40.8347 - Category Selected : Cricket -            
+
+2021-06-20 11:30:41.7740 - Index Action Called Soccer for 1 -            
+
+2021-06-20 11:30:41.8816 - ProductListViewModel Object Created -            
+
+2021-06-20 11:30:41.8935 - Category Selected : Soccer -            
+
+2021-06-20 11:30:43.5172 - Category Selected :  -            
+
+2021-06-20 11:30:44.8497 - Index Action Called  for 1 -            
+
+2021-06-20 11:30:44.8497 - ProductListViewModel Object Created -            
+
+2021-06-20 11:30:44.8591 - Category Selected :  -            
+
+2021-06-20 11:30:46.7137 - Index Action Called Chess for 1 -            
+
+2021-06-20 11:30:46.7193 - ProductListViewModel Object Created -            
+
+2021-06-20 11:30:46.7327 - Category Selected : Chess -            
+
+2021-06-20 12:26:10.8637 - No type was specified for the decimal column 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. -            
+
+2021-06-20 12:29:36.8536 - No type was specified for the decimal column 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. -            
+
+2021-06-20 12:42:48.8992 - Now listening on: http://localhost:5000 -            
+
+2021-06-20 12:42:48.9819 - Application started. Press Ctrl+C to shut down. -            
+
+2021-06-20 12:42:48.9819 - Hosting environment: Staging -            
+
+2021-06-20 12:42:48.9819 - Content root path: D:\FreeLancerAssignments\BankOfAmericaBatch3\sample-app -            
+
+2021-06-20 12:42:52.8946 - Index Action Called  for 1 -            
+
+2021-06-20 12:42:52.9082 - ProductListViewModel Object Created -            
+
+2021-06-20 12:42:53.5634 - Category Selected :  -            
+
+2021-06-20 12:44:53.6649 - Now listening on: http://localhost:5000 -            
+
+2021-06-20 12:44:53.7420 - Application started. Press Ctrl+C to shut down. -            
+
+2021-06-20 12:44:53.7464 - Hosting environment: Staging -            
+
+2021-06-20 12:44:53.7464 - Content root path: D:\FreeLancerAssignments\BankOfAmericaBatch3\sample-app -            
+
+2021-06-20 12:44:57.9120 - Index Action Called  for 1 -            
+
+2021-06-20 12:44:59.1070 - No type was specified for the decimal column 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. -            
+
+2021-06-20 12:45:01.3824 - ProductListViewModel Object Created -            
+
+2021-06-20 12:45:01.9710 - Category Selected :  -            
+
+2021-06-20 12:45:06.3598 - Index Action Called  for 2 -            
+
+2021-06-20 12:45:06.4492 - ProductListViewModel Object Created -            
+
+2021-06-20 12:45:06.4492 - Category Selected :  -            
+
+2021-06-20 12:45:08.6016 - Index Action Called  for 1 -            
+
+2021-06-20 12:45:08.6504 - ProductListViewModel Object Created -            
+
+2021-06-20 12:45:08.6951 - Category Selected :  -            
+
+2021-06-20 12:45:22.0273 - Category Selected :  -            
+
+2021-06-20 12:45:53.9978 - ModelState is valid -            
+
+2021-06-20 12:46:06.6116 - Failed executing DbCommand (238ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = DateTime2), @p4='?' (Size = 4000), @p5='?' (DbType = Decimal)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Products] ([ProductID], [Category], [Description], [MfgDate], [Name], [Price])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5); -            
+
+2021-06-20 12:46:06.7112 - An exception occurred in the database while saving changes for context type 'sample_app.Models.BankOfAmericaBatchThreeContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Products' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:a957e716-0c17-4458-89b3-a44509cade87
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess) -               at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+
+2021-06-20 12:48:41.1450 - Now listening on: http://localhost:5000 -            
+
+2021-06-20 12:48:41.2154 - Application started. Press Ctrl+C to shut down. -            
+
+2021-06-20 12:48:41.2441 - Hosting environment: Staging -            
+
+2021-06-20 12:48:41.2731 - Content root path: D:\FreeLancerAssignments\BankOfAmericaBatch3\sample-app -            
+
+2021-06-20 12:48:44.8501 - Index Action Called  for 1 -            
+
+2021-06-20 12:48:46.0636 - No type was specified for the decimal column 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. -            
+
+2021-06-20 12:48:47.8956 - ProductListViewModel Object Created -            
+
+2021-06-20 12:48:48.5131 - Category Selected :  -            
+
+2021-06-20 12:48:54.5371 - Category Selected :  -            
+
+2021-06-20 12:49:11.9046 - ModelState is valid -            
+
+2021-06-20 12:49:24.4741 - Index Action Called  for 1 -            
+
+2021-06-20 12:49:24.4912 - ProductListViewModel Object Created -            
+
+2021-06-20 12:49:24.5116 - Category Selected :  -            
+
+2021-06-20 12:49:29.6259 - Category Selected :  -            
+
+2021-06-20 12:49:48.3269 - ModelState is valid -            
+
+2021-06-20 12:49:55.7878 - Index Action Called  for 1 -            
+
+2021-06-20 12:49:55.7988 - ProductListViewModel Object Created -            
+
+2021-06-20 12:49:55.8162 - Category Selected :  -            
+
+2021-06-20 12:49:59.3881 - Index Action Called  for 3 -            
+
+2021-06-20 12:49:59.4034 - ProductListViewModel Object Created -            
+
+2021-06-20 12:49:59.4182 - Category Selected :  -            
+
+2021-06-20 12:50:01.8961 - Index Action Called  for 2 -            
+
+2021-06-20 12:50:01.9138 - ProductListViewModel Object Created -            
+
+2021-06-20 12:50:01.9326 - Category Selected :  -            
+
+2021-06-20 12:52:10.1475 - Now listening on: http://localhost:5000 -            
+
+2021-06-20 12:52:10.2362 - Application started. Press Ctrl+C to shut down. -            
+
+2021-06-20 12:52:10.2754 - Hosting environment: Staging -            
+
+2021-06-20 12:52:10.2888 - Content root path: D:\FreeLancerAssignments\BankOfAmericaBatch3\sample-app -            
+
+2021-06-20 12:52:14.4028 - Index Action Called  for 1 -            
+
+2021-06-20 12:52:15.6531 - No type was specified for the decimal column 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. -            
+
+2021-06-20 12:52:17.7037 - ProductListViewModel Object Created -            
+
+2021-06-20 12:52:18.3636 - Category Selected :  -            
+
+2021-06-20 12:52:23.6505 - Index Action Called  for 3 -            
+
+2021-06-20 12:52:23.7313 - ProductListViewModel Object Created -            
+
+2021-06-20 12:52:23.7510 - Category Selected :  -            
+
+2021-06-20 12:52:27.6036 - Category Selected :  -            
+
+2021-06-20 12:52:34.2088 - ModelState is valid for Update Action -            
+
+2021-06-20 12:52:34.4847 - Index Action Called  for 1 -            
+
+2021-06-20 12:52:34.4847 - ProductListViewModel Object Created -            
+
+2021-06-20 12:52:34.5044 - Category Selected :  -            
+
+2021-06-20 12:52:49.1712 - Index Action Called  for 3 -            
+
+2021-06-20 12:52:49.1712 - ProductListViewModel Object Created -            
+
+2021-06-20 12:52:49.2108 - Category Selected :  -            
+
+2021-06-20 12:52:51.3550 - Index Action Called  for 1 -            
+
+2021-06-20 12:52:51.3619 - ProductListViewModel Object Created -            
+
+2021-06-20 12:52:51.3719 - Category Selected :  -            
+
+2021-06-20 12:53:02.7869 - Category Selected :  -            
+
+2021-06-20 12:53:04.7141 - Index Action Called  for 1 -            
+
+2021-06-20 12:53:04.7221 - ProductListViewModel Object Created -            
+
+2021-06-20 12:53:04.7325 - Category Selected :  -            
+
+2021-06-20 12:55:27.7545 - Now listening on: http://localhost:5000 -            
+
+2021-06-20 12:55:27.9178 - Application started. Press Ctrl+C to shut down. -            
+
+2021-06-20 12:55:27.9319 - Hosting environment: Staging -            
+
+2021-06-20 12:55:27.9440 - Content root path: D:\FreeLancerAssignments\BankOfAmericaBatch3\sample-app -            
+
+2021-06-20 12:55:31.2887 - Index Action Called  for 1 -            
+
+2021-06-20 12:55:32.4072 - No type was specified for the decimal column 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. -            
+
+2021-06-20 12:55:34.3445 - ProductListViewModel Object Created -            
+
+2021-06-20 12:55:35.0118 - Category Selected :  -            
+
+2021-06-20 12:55:37.5264 - Category Selected :  -            
+
+2021-06-20 12:55:49.7158 - ModelState is valid -            
+
+2021-06-20 12:56:25.5653 - Failed executing DbCommand (100ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = DateTime2), @p4='?' (Size = 4000), @p5='?' (DbType = Decimal)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Products] ([ProductID], [Category], [Description], [MfgDate], [Name], [Price])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5); -            
+
+2021-06-20 12:56:25.6820 - An exception occurred in the database while saving changes for context type 'sample_app.Models.BankOfAmericaBatchThreeContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Products' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:713a05a3-9a99-4bec-ba4a-479adaedc7e8
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess) -               at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+

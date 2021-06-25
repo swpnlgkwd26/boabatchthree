@@ -1,0 +1,7 @@
+
+Create Grpc Service and Grpc Client that performs following operation
+
+ 1. Bank Admin , Should be able to Manage Accounts(Add,Delete,Update and Read) (Use SQL Server To Store Data)
+ 
+
+Complete Lab files 

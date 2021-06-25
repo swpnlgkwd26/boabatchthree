@@ -1,0 +1,10 @@
+
+Add Following Features using .Net Core in Application created in Week1 assignment
+
+ 1. Bank Admin , Should be able to Manage Accounts(Add,Delete,Update and Read) (Use SQL Server To Store Data)
+ 2. Use AutoMapper Wherever Possible
+ 3. Add FundTransfer Option in the application ( use Transaction concepts of EFCore)
+ 4. Add Appropriate Model Validation and Model Binding on Update and Add Accounts Page.
+ 
+
+Complete Lab files for Day 3 and Day4 and Day 5
