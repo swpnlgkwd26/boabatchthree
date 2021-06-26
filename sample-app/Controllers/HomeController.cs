@@ -121,8 +121,8 @@ namespace sample_app.Controllers
 
         public IActionResult AboutUs()
         {
-            throw new Exception();
-            //return View();
+            //throw new Exception();
+            return View();
         }
         public IActionResult Contact()
         {

@@ -1,1 +1,30 @@
-﻿<h2> About Us</h2>
+﻿
+
+<h2> About Us:  Lets Call Web API</h2>
+<button id="btnGetProduct" class="btn btn-primary"> Get Product</button>
+<ul id="ulProducts">
+
+</ul>
+<script type="text/javascript">
+    $(document).ready(function () {
+        var ulProducts = $("#ulProducts");
+        $("#btnGetProduct").click(function () {
+            $.ajax({
+                type: "GET",
+                url: "http://localhost:5001/api/products",
+                dataType: "json",
+                success: function (data) {
+                    ulProducts.empty();
+                    $.each(data, function (index, val) {
+                        ulProducts.append("<li>" + val.name + "</li>" )
+                    })
+                },
+                error: function (err) {
+                    alert('Something went wrong');
+                    ulProducts.empty();
+                }
+            })
+        })
+
+    })
+</script>
