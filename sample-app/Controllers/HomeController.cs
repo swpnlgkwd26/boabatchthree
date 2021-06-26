@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.FileProviders;
 using Microsoft.Extensions.Logging;
@@ -19,13 +20,16 @@ namespace sample_app.Controllers
         private readonly IStoreRepository _repository;
         private readonly ILogger<HomeController> _logger;
         private readonly IFileProvider _fileProvider;
+        private readonly IMapper _mapper;
         public int PageSize = 2;
-        public HomeController(IStoreRepository repository,ILogger<HomeController> logger,
-            IFileProvider fileProvider)
+        public HomeController(IStoreRepository repository,
+            ILogger<HomeController> logger,
+            IFileProvider fileProvider, IMapper mapper)
         {
             _repository = repository;
             _logger = logger;
             _fileProvider = fileProvider;
+            _mapper = mapper;
         }
         // Action Methods
         public IActionResult Index(string category, int productPage = 1)
@@ -63,30 +67,17 @@ namespace sample_app.Controllers
         [HttpPost]
         public IActionResult Create(ProductEditModel productEditModel) // Model binding
         {
-            // Rules defined in the model obeyed
             if (ModelState.IsValid)
             {
-                // View We are Receiving ProductEditModel
-
                 _logger.LogInformation($"ModelState is valid");
-                // Need to convert it from EditModel To Product that my AddPRoduct Method accept
-                Product product = new Product
-                {
-                    ProductID = productEditModel.ProductID,
-                    Name = productEditModel.Name,
-                    Price = productEditModel.Price,
-                    Category = productEditModel.Category,
-                    Description = productEditModel.Description,
-                    MfgDate = productEditModel.MfgDate
-                };
-
+                // Convert ProductEditModel to Product
+                var product = _mapper.Map<Product>(productEditModel);
                 _repository.AddProduct(product);
                 return RedirectToAction("Index");
             }
 
             _logger.LogError($"ModelState is Invalid for Create Action");
             return View();
-         
         }
 
         // This Will Return View That display detailed information about the product
@@ -107,40 +98,17 @@ namespace sample_app.Controllers
 
         public IActionResult Update(int id)
         {
-            // We getting a product
-            var product = _repository.GetProduct(id); // Get the Product
-
-            //Convert the Product information to ProductEditModel
-            ProductEditModel productEditModel = new ProductEditModel
-            {
-                ProductID = product.ProductID,
-                Name = product.Name,
-                Price = product.Price,
-                Category = product.Category,
-                Description = product.Description,
-                MfgDate = product.MfgDate
-            };
-
-            return View(productEditModel); // Pass product information to view so that it is available in textbox
+            var product = _repository.GetProduct(id);
+            var productEditModel = _mapper.Map<ProductEditModel>(product);
+            return View(productEditModel);
         }
         [HttpPost]
         public IActionResult Update(ProductEditModel productEditModel)
         {
             if (ModelState.IsValid)
             {
-
                 _logger.LogInformation($"ModelState is valid for Update Action");
-                // Need to convert it from EditModel To Product that my AddPRoduct Method accept
-                Product product = new Product
-                {
-                    ProductID = productEditModel.ProductID,
-                    Name = productEditModel.Name,
-                    Price = productEditModel.Price,
-                    Category = productEditModel.Category,
-                    Description = productEditModel.Description,
-                    MfgDate = productEditModel.MfgDate
-                };
-
+                var product = _mapper.Map<Product>(productEditModel);
                 _repository.UpdateProduct(product.ProductID, product);
                 return RedirectToAction("Index");
             }
@@ -148,7 +116,7 @@ namespace sample_app.Controllers
             _logger.LogError($"ModelState is Invalid for Update Action");
 
             return View();
-         
+
         }
 
         public IActionResult AboutUs()
@@ -204,8 +172,8 @@ namespace sample_app.Controllers
             {
                 return true;
             }
-            return false;            
+            return false;
         }
-      
+
     }
 }

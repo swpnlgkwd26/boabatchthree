@@ -50,6 +50,10 @@ namespace sample_app
             //services.AddScoped<IStoreRepository, ProductInMemoryRepository>();
 
             services.AddScoped<IStoreRepository, ProductSQLRepository>();
+
+            // Activate AutoMapper
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
