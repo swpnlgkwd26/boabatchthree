@@ -36,6 +36,35 @@ namespace sample_app.Models
             return _context.Products.Single(p => p.ProductID == id);
         }
 
+        public void PerformTransaction()
+        {
+            using (var transaction = _context.Database.BeginTransaction())
+            {
+                // 2 Operations
+                try
+                {
+                    // 1. Entry into Sales Table
+                    _context.Sales.Add(new Sale
+                    {
+                        ProductID = 2,
+                        ProductName = "Samsung"
+                    });
+                    // 2. Reduce Quantity by -1 from Inventory
+                    var inventory = _context.Inventories.Single(p => p.ProductID == 2);
+                    inventory.Quantity = inventory.Quantity - 1;
+                    _context.SaveChanges();
+                    transaction.Commit();
+                }
+                catch (Exception ex)
+                {
+                    transaction.Rollback();
+                    throw ex;
+                }
+                
+
+            }
+        }
+
         public bool UpdateProduct(int id, Product product)
         {
             var productToUpdate = _context.Products.Single(x => x.ProductID == id); // Find

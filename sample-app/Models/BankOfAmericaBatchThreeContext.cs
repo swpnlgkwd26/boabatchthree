@@ -14,5 +14,9 @@ namespace sample_app.Models
         }
 
         public DbSet<Product> Products { get; set; }
+
+        public DbSet<Sale> Sales { get; set; }
+
+        public DbSet<Inventory> Inventories { get; set; }
     }
 }

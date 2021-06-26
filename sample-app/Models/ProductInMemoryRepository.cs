@@ -114,6 +114,11 @@ namespace sample_app.Models
             return product;
         }
 
+        public void PerformTransaction()
+        {
+            throw new NotImplementedException();
+        }
+
         public bool UpdateProduct(int id, Product product)
         {
             // Find the product to update

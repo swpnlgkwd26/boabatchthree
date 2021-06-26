@@ -12,5 +12,7 @@ namespace sample_app.Models
         void AddProduct(Product product); // Add 
         bool DeleteProduct(int id); // Delete Existin
         bool UpdateProduct(int id, Product product); // Update
+
+        void PerformTransaction();
     }
 }

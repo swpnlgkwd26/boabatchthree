@@ -15,6 +15,11 @@
    asp-route-category="">
     Contact
 </a>
+<a class="btn btn-block btn-outline-secondary"
+   asp-action="PerformTransaction" asp-controller="Home"
+   asp-route-category="">
+    Perform Transaction
+</a>
 
 @foreach (string category in Model)
 {

@@ -175,5 +175,19 @@ namespace sample_app.Controllers
             return false;
         }
 
+        public IActionResult PerformTransaction()
+        {
+            try
+            {
+                _repository.PerformTransaction();
+                return Content("Transaction Successful");
+            }
+            catch (Exception)
+            {
+                return Content("Transaction Failed");
+            }
+            
+        }
+
     }
 }
